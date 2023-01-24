@@ -1,0 +1,150 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.head-part{
+    //outline: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 2px solid lightgray;
+}
+
+.myImage{
+    //outline: 1px solid red;
+    width: 70px;
+    margin: 10px;
+    border-radius:50px;
+}
+.head-part .myLogo{
+   //outline: 1px solid blue;
+   width:9pc;
+}
+.account-icon{
+    //outline: 1px solid blue;
+    //margin-top: 30px;
+    width:50px;
+}
+.follow-button-area{
+    //outline: 1px solid red;
+    padding: 15px;
+    margin: 0 300px;
+}
+.follow-btn{
+    //outline: 1px solid red;
+    padding: 5px 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    border:1px solid black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    margin-right: 10px;
+}
+.follow-btn:hover{
+    //outline: 1px solid red;
+    //background-image: linear-gradient(130deg, purple, red, orange);
+    background-color:lightgray;
+    border:1px solid black;
+    color: black;
+    
+}
+.wrapper{
+    //outline: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center 
+}
+.p-wrapper{
+    display: flex;
+    //outline: 1px solid green;
+    padding:0px;
+}
+.bold-txt{
+    //outline: 1px solid red;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.small-txt{
+    //outline: 1px solid red;
+    font-size: 16px;
+    margin-top: 5px;
+}
+.image-wrapper{
+    //outline: 1px solid blue;
+    height: auto;
+    width: 100%; 
+    //padding: 50%
+    
+}
+.icons{
+    //outline: 1px solid red;
+    width: 30px;
+    margin: 10px 16px;
+    //margin-top: 500px;
+}
+
+.icon-wrapper{
+     //outline: 3px solid green;
+     display: flex
+}
+.like-wrapper{
+    //outline: 2px solid red;
+}
+.like-count{
+    //outline: 2px solid green;
+    margin: 10px 21px;
+    width: 100px;
+}
+.caption-area{
+    //outline: 1px solid red;
+    margin-left: 19px;
+}
+.username{
+    //outline: 1px solid red;
+    font-weight: bold;
+    margin-right: 5px;
+
+}
+.comment-wrapper{
+    //outline: 1px solid red;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.commentator{
+    //outline: 2px solid green;
+    margin: 0px 21px;
+}
+.hidden-comment-area{
+    //outline: 2px solid green;
+}
+.comment-itself{
+    //outline: 2px solid red;
+    margin-left: 24px ;
+}
+.send-comment-btn{
+    //outline: 2px solid green;
+    margin-top: 8px;
+}
+.send-comment-btn button{
+    //outline: 2px solid lightblue;
+    padding: 5px 21px;
+    background-color: black;
+    color: white;
+    font-style: sans-rerif;
+    font-family: sans-serif;
+    border: none;
+    border-radius: 10px;
+    
+}
+input[type=text]{
+    //outline: 2px solid green;
+    border:2px solid black;
+    border-radius: 10px;
+    margin: 10px 0;
+    padding-left:10px;
+}
